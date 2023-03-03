@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
 }
-table, .configurador{
+table, .configurador, #tempo {
     width: 500px;
     margin: auto;
     border: 1px solid black;
@@ -10,10 +10,11 @@ table, .configurador{
 table td{
     border: 1px solid black;
     height: 166px;
+    width: 166px;
     text-align: center;
     font-size: 96px;
 }
-.configurador{
+.configurador, #tempo {
     text-align: center;
     border: none;
     padding: 20px;
@@ -29,4 +30,13 @@ table td{
     padding: 10px 15px;
     background-color: lightgreen;
     border: 1px solid gray;
+}
+.msg{
+    width: 480px;
+    padding: 10px;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+    height: 40px;
+    border: 1px solid lightseagreen;
+    color: grey;
 }
